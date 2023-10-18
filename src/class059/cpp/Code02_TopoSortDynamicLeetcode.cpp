@@ -56,4 +56,4 @@ auto __FAST_IO__ = []() noexcept -> int {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   return 0;
-};
+}();
