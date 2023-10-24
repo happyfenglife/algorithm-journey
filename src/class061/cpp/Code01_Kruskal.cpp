@@ -4,6 +4,10 @@
 
 using namespace std;
 
+// Kruskal算法模版（洛谷）
+// 静态空间实现
+// 测试链接 : https://www.luogu.com.cn/problem/P3366
+// 时间复杂度O(m * log m) + O(n + m)
 const int MAXN = 5001;
 const int MAXM = 200001;
 
