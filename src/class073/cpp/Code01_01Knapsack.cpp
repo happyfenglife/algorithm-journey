@@ -3,6 +3,14 @@
 
 using namespace std;
 
+// 01背包(模版)
+// 给定一个正数t，表示背包的容量
+// 有m个货物，每个货物可以选择一次
+// 每个货物有自己的体积costs[i]和价值values[i]
+// 返回在不超过总容量的情况下，怎么挑选货物能达到价值最大
+// 返回最大的价值
+// 测试链接 : https://www.luogu.com.cn/problem/P1048
+
 const int MAXT = 1001;
 const int MAXM = 101;
 
