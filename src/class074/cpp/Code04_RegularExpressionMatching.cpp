@@ -4,6 +4,15 @@
 
 using namespace std;
 
+// 正则表达式匹配
+// 给你字符串s、字符串p
+// s中一定不含有'.'、'*'字符，p中可能含有'.'、'*'字符
+// '.' 表示可以变成任意字符，数量1个
+// '*' 表示可以让 '*' 前面那个字符数量任意(甚至可以是0个)
+// p中即便有'*'，一定不会出现以'*'开头的情况，也一定不会出现多个'*'相邻的情况(无意义)
+// 请实现一个支持 '.' 和 '*' 的正则表达式匹配
+// 返回p的整个字符串能不能匹配出s的整个字符串
+// 测试链接 : https://leetcode.cn/problems/regular-expression-matching/
 class Solution {
  public:
   static bool isMatch1(const string &s, const string &p) {
