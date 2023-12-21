@@ -1,1 +1,1 @@
-# algorithm-jounery
+# algorithm-journey
