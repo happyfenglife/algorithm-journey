@@ -28,7 +28,7 @@ int find(int i)
 		father[i] = find(father[i]);
 	}
 
-	return i;
+	return father[i];
 }
 
 void uni(int i, int j)
